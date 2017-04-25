@@ -530,7 +530,7 @@ namespace LeaveApplicationUppgift.ViewNapproveLeavesWP {
             global::System.Web.UI.WebControls.GridView @__ctrl1;
             @__ctrl1 = this.@__BuildControlgvMyLeaves();
             @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n<h1>Leaves pending for my approval</h1>\r\n<p>&nbsp;</p>\r\n"));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n<h1>Leaves Pending For My Approval</h1>\r\n<p>&nbsp;</p>\r\n"));
             global::System.Web.UI.WebControls.GridView @__ctrl2;
             @__ctrl2 = this.@__BuildControlgvMyApprovalGrid();
             @__parser.AddParsedSubObject(@__ctrl2);

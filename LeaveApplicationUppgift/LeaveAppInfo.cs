@@ -9,7 +9,7 @@ namespace LeaveApplicationUppgift
 {
     class LeaveAppInfo
     {
-//properties
+        #region properties
         public int LeaveId { get; set; }
         public string LeaveTitle { get; set; }
         public string FirstName { get; set; }
@@ -17,11 +17,10 @@ namespace LeaveApplicationUppgift
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public string status { get; set; }
-        
         public int PercentageCompletion { get; set; }
         public string Ansvarig { get; set; }
-        
+        #endregion
     }
-   
+
 
 }
