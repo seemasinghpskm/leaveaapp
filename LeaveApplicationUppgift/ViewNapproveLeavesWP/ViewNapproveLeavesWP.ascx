@@ -25,7 +25,7 @@
 <p>&nbsp;</p>
 <asp:GridView ID="gvMyApprovalGrid" OnRowCancelingEdit="gvMyApprovalGrid_RowCancelingEdit"  OnRowEditing="gvMyApprovalGrid_RowEditing" OnRowUpdating="gvMyApprovalGrid_RowUpdating"  runat="server" CellPadding="3" EmptyDataText ="No leave Request Pending" AutoGenerateColumns="False" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" Height="200px" Width="800px" CellSpacing="1" GridLines="None">
     <Columns>
-                <asp:CommandField ShowEditButton="True" />
+             <asp:CommandField ShowEditButton="True" />
                 <asp:BoundField DataField="leaveID" HeaderText="ID" InsertVisible="False" ReadOnly="True"  />
                 <asp:BoundField DataField="LastName" HeaderText="Last Name" ReadOnly="True"  />
                 <asp:BoundField DataField="FirstName" HeaderText="First Name" ReadOnly="True" />
