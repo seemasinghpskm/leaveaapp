@@ -21,6 +21,4 @@ namespace LeaveApplicationUppgift
         public string Ansvarig { get; set; }
         #endregion
     }
-
-
 }
