@@ -9,7 +9,7 @@ namespace LeaveApplicationUppgift
 {
     class LeaveAppInfo
     {
-       
+//properties
         public int LeaveId { get; set; }
         public string LeaveTitle { get; set; }
         public string FirstName { get; set; }

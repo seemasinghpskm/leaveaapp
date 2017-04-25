@@ -6,7 +6,7 @@
 <%@ Import Namespace="Microsoft.SharePoint" %> 
 <%@ Register Tagprefix="WebPartPages" Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ViewNapproveLeavesWP.ascx.cs" Inherits="LeaveApplicationUppgift.ViewNapproveLeavesWP.ViewNapproveLeavesWP" %>
-<h1>My Applied Leaves</h1>
+<h1>My Applied Leaves </h1>
 <asp:GridView ID="gvMyLeaves" runat="server" BackColor="White" EmptyDataText="No Leaves Data available" BorderColor="#E7E7FF" BorderStyle="None" BorderWidth="1px" CellPadding="3" GridLines="Horizontal" Height="225px" Width="800px">
     <AlternatingRowStyle BackColor="#F7F7F7" />
     <FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />

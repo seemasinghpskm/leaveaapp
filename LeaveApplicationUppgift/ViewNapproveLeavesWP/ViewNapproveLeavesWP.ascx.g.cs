@@ -526,7 +526,7 @@ namespace LeaveApplicationUppgift.ViewNapproveLeavesWP {
             "artCodeGenerator", "14.0.0.0")]
         private void @__BuildControlTree(global::LeaveApplicationUppgift.ViewNapproveLeavesWP.ViewNapproveLeavesWP @__ctrl) {
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n<h1>My Applied Leaves</h1>\r\n"));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n<h1>My Applied Leaves </h1>\r\n"));
             global::System.Web.UI.WebControls.GridView @__ctrl1;
             @__ctrl1 = this.@__BuildControlgvMyLeaves();
             @__parser.AddParsedSubObject(@__ctrl1);
